@@ -73,7 +73,13 @@
 	})
 	
 	$(function() {
-    	    $('.sharebutton').share();
+    	    $('.sharebutton').share({
+    	    	facebook: {
+			image: 'img/twittercard_image-01.png',
+			name: 'St. Louis Public Radio\'s weekly news quiz'
+			},
+		text_font: false
+    	    });
 		
 	});
 	

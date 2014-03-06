@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta content="text/html; charset=utf-8" http-equiv="content-type">
-
-        <title>St. Louis Public Radio Weekly News Quiz</title>
-        <link href="../css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
-        <link href="../css/bootstrap.css" rel="stylesheet">
-        <link href="../css/theme.css" rel="stylesheet">
+            <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    	<meta name="twitter:card" content="summary_large_image">
+    	<meta name ="twitter:site" content="@stlpublicradio">
+    	<meta name="twitter:creator" content="@dalesinger">
+    	<meta name="twitter:title" content="Test Quiz">
+    	<meta name="twitter:description" content="St. Louis Public Radio news quiz for the week of Mar 3, 2014.">
+    	<meta name="twitter:image:src" content=img/twittercard_image-01.png>
+            <title>St. Louis Public Radio Weekly News Quiz</title>
+            <link href="../css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+            <link href="../css/bootstrap.css" rel="stylesheet">
+            <link href="../css/theme.css" rel="stylesheet">
+            <script src="../js/jquery.js"></script>
+            <script src="../js/share.min.js"></script>
+	
     </head>
 
     <body class="body-embed">
@@ -26,39 +34,45 @@
         </div>
 
         <div class="quizResults">
-            <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+		<div class="row">
+			<div class="col-xs-8">
+			    <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
 
-            <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
-
-            <div class="quizResultsCopy">
-                <!-- where the quiz result copy goes -->
-            </div>
+		            <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+			    </div>
+			    <div class="col-xs-4">
+				    <div class="sharebutton"></div>
+				    </div>
+				    </div>
+		            <div class="quizResultsCopy">
+		                <!-- where the quiz result copy goes -->
+		            </div>
+		        </div>
+		</div>
         </div>
 </div>
 </div>
 
-<<<<<<< HEAD
-        <script src="js/jquery.js"></script>
-	
-	<script type="text/javascript">
-	$(function () {
-	    var options = {
-	        // see below
-	    };
-	    $('#slickQuiz').slickQuiz(options);
-	});	</script>
-        <script src="js/slickQuiz.js"></script>
-	<script src="js/20140306.js"></script>
-=======
-        <script src="../js/jquery.js"></script>
 	
 	<script type="text/javascript">
 	$(function () {
 	    $('#slickQuiz').slickQuiz();
-	});	</script>
+	});	
+	
+	$(function() {
+    	    $('.sharebutton').share({
+    	    	facebook: {
+			image: '../img/twittercard_image-01.png',
+			name: 'St. Louis Public Radio\'s weekly news quiz'
+			},
+		text_font: false
+    	    });
+	    });
+	
+	</script>
         <script src="../js/slickQuiz.js"></script>
 	<script src="../js/20140306.js"></script>
->>>>>>> develop
+
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

@@ -49,10 +49,16 @@
         </div>
 
         <div class="quizResults">
-            <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+<div class="row">
+	<div class="col-xs-8">
+	    <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
 
             <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
-
+	    </div>
+	    <div class="col-xs-4">
+		    <div class="sharebutton"></div>
+		    </div>
+		    </div>
             <div class="quizResultsCopy">
                 <!-- where the quiz result copy goes -->
             </div>
@@ -60,12 +66,17 @@
 </div>
 </div>
 
-        <script src="js/jquery.js"></script>
 	
 	<script type="text/javascript">
 	$(function () {
 	    $('#slickQuiz').slickQuiz();
+	})
+	
+	$(function() {
+    	    $('.sharebutton').share();
+		
 	});
+	
 	
 	</script>
         <script src="js/slickQuiz.js"></script>

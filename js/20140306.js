@@ -97,7 +97,7 @@ var quizJSON = {
         "incorrect": "<p><span>Incorrect.</span></p> <p><a target='_parent' href='http://news.stlpublicradio.org/post/rev-james-f-declue-headed-local-naacp-worked-employment'>DeClue spent 32 years at Emerson, ending his career as corporate director of affirmative action and equal employment opportunity. He also led  Washington Tabernacle Missionary Baptist Church and New Bethel Missionary Baptist Church. He died recently at age 86. Read our obituary by Gloria Ross.</a></p>" // no comma here
     },
     { 
-        "q": "What caused the fire at the Bridgeton Landfill",
+        "q": "What caused the fire at the Bridgeton Landfill?",
         "a": [
             {"option": "Lightning",      "correct": false},
             {"option": "Improper dumping",     "correct": false},

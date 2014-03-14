@@ -49,8 +49,8 @@ var quizJSON = {
                 {"option": "$28 billion",      "correct": true},
                 {"option": "$30 billion",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/missouri-house-committee-passes-state-budget-fy2015'>Capital correspondent Marshall Griffin reported that the spending plan includes an increase for K-12 education that could total between $122 million and $278 million, depending on the amount of revenue taken in by the state.</a></p>",
-            "incorrect": "<p><span>Incorrect.</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/missouri-house-committee-passes-state-budget-fy2015'>Capital correspondent Marshall Griffin reported that the spending plan includes an increase for K-12 education that could total between $122 million and $278 million, depending on the amount of revenue taken in by the state.</a></p>" // no comma here
+            "correct": "<p><span>That's right!</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/missouri-house-committee-passes-state-budget-fy2015'>Capital correspondent Marshall Griffin reported that the $28 billion spending plan includes an increase for K-12 education that could total between $122 million and $278 million, depending on the amount of revenue taken in by the state.</a></p>",
+            "incorrect": "<p><span>Incorrect.</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/missouri-house-committee-passes-state-budget-fy2015'>Capital correspondent Marshall Griffin reported that the $28 billion spending plan includes an increase for K-12 education that could total between $122 million and $278 million, depending on the amount of revenue taken in by the state.</a></p>" // no comma here
         },
         { 
             "q": "Who chairs a newly named task force on the future of the Normandy school district?",

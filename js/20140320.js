@@ -104,7 +104,7 @@ var quizJSON = {
                 {"option": "Thornhill",      "correct": false},
                 {"option": "Jamestown Bluffs",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/controversy-brews-over-plans-change-lewis-and-clark-library-branch'>Preservations want to keep the 1963 north county building standing, according to a report by Terry Perkins, instead of seeing it demolished and replaced by a new building on the same site. Library officials say the demolition was promised in the successful bond issue campaign of 2012.</a></p>",
+            "correct": "<p><span>That's right!</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/controversy-brews-over-plans-change-lewis-and-clark-library-branch'>Preservationists want to keep the 1963 north county building standing, according to a report by Terry Perkins, instead of seeing it demolished and replaced by a new building on the same site. Library officials say the demolition was promised in the successful bond issue campaign of 2012.</a></p>",
             "incorrect": "<p><span>Incorrect.</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/controversy-brews-over-plans-change-lewis-and-clark-library-branch'>Preservations want to keep the 1963 north county building standing, according to a report by Terry Perkins, instead of seeing it demolished and replaced by a new building on the same site. Library officials say the demolition was promised in the successful bond issue campaign of 2012.</a></p>" // no comma here
         },
         { 

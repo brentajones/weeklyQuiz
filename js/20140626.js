@@ -108,7 +108,8 @@ var quizJSON = {
             "incorrect": "<p><span>Incorrect.</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/lawsuit-seeks-save-solar-rebates'>The coalition wants to block a request by Ameren and Kansas City Power & Light to end Missouri’s solar rebate program. Maria Altman reported that even if the program remains on the books, both utility companies say they could no longer pay rebates because they had reached a 1 percent cap laid out in the rules for the voter-approved program.</a></p>" // no comma here
         },
         { 
-            "q": "The former site of a north St. Louis grocery store, known as Tillie’s Corner, could be designated a landmark. What neighborhood is it in?",
+            "q": "The former site of a north St. Louis grocery store, known as Tillie’s Corner, was designated as a city landmark. What neighborhood is it in?
+",
             "a": [
                 {"option": "St. Louis Place",      "correct": false},
                 {"option": "Jeff-Vander-Lou",     "correct": true},

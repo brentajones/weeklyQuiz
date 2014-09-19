@@ -71,8 +71,8 @@ var quizJSON = {
 				{"option": "2009",	"correct": false},
 				{"option": "They’ve never gone on strike before",	"correct": true}
 			],
-			"correct": "<p><span>That's right!</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/update-day-five-highland-teachers-strike'>Highland teachers walked off the job last week, going on strike for the first time ever. Camille Phillips reported that the teachers’ union wants their new contract to mirror their old one.</a></p>",
-			"incorrect": "<p><span>Incorrect.</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/update-day-five-highland-teachers-strike'>Highland teachers walked off the job last week, going on strike for the first time ever. Camille Phillips reported that the teachers’ union wants their new contract to mirror their old one.</a></p>"
+			"correct": "<p><span>That's right!</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/update-day-five-highland-teachers-strike'>Highland teachers walked off the job last week, going on strike for the first time ever. Camille Phillips reported that the teachers returned to work Friday under a new three-year contract that includes a provision to make up the missed school days.</a></p>",
+			"incorrect": "<p><span>Incorrect.</span></p> <p><a target='_blank' href='http://news.stlpublicradio.org/post/update-day-five-highland-teachers-strike'>Highland teachers walked off the job last week, going on strike for the first time ever. Camille Phillips reported that the teachers returned to work Friday under a new three-year contract that includes a provision to make up the missed school days.</a></p>"
 		},
 		{
 			"q": "Addition of a third shift at the General Motors plant at Wentzville is based in part on advance orders for a new Chevrolet pickup called what?",
